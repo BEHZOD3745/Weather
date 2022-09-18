@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images.wallpaperscraft.com/image/single/night_city_aerial_view_skyscrapers_131895_2560x1600.jpg) no-repeat center center / cover fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 30px;
+    max-width: 420px;
+    width: 100%;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__box {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: 100%;
+}
+
+.city {
+    margin: 25px 0 20px;
+}
+
+.temp {
+    margin-bottom: 5px;
+}
+
+.max-min-temp {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
